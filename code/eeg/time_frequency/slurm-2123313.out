@@ -1,0 +1,131 @@
+/home/data/NDClab/datasets/mfe-jr-dataset/code/eeg/time_frequency
+n109.panther.net
+Thu May 22 10:19:23 EDT 2025
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> [Warning: Function labindex has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function numlabs has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+>> >> >> [Warning:
+"/home/data/NDClab/datasets/mfe-jr-dataset/code/eeg/preprocessing/eeglab2023/functions/octavefunc/signal"
+not found in path.] 
+[> In rmpath (line 71)] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+
+
+*** Processing subject 1 (sub-3700001_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700001_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700001_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+
+
+
+*** Processing subject 2 (sub-3700002_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700002_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700002_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+
+
+
+*** Processing subject 3 (sub-3700003_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700003_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700003_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+
+
+
+*** Processing subject 4 (sub-3700006_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700006_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700006_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+
+
+
+*** Processing subject 5 (sub-3700008_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700008_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700008_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+
+
+
+*** Processing subject 6 (sub-3700009_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700009_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700009_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+
+
+
+*** Processing subject 7 (sub-3700010_all_eeg_s1_r1_e1_processed_data.set) ***
+
+
+pop_loadset(): loading file /home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700010_all_eeg_s1_r1_e1_processed_data.set ...
+Reading float file '/home/data/NDClab/datasets/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed/processed_data/sub-3700010_all_eeg_s1_r1_e1_processed_data.fdt'...
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+pop_editeventfield(): creating new field 'Condition'
+pop-editeventfield(): updating urevent structure
+Event resorted by increasing latencies.
+Event resorted by increasing latencies.
+Saving dataset...
+>> 

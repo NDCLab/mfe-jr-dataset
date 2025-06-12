@@ -1,0 +1,156 @@
+/home/data/NDClab/datasets/mfe-jr-dataset/code/eeg/time_frequency
+n109.panther.net
+Thu May 22 23:53:46 EDT 2025
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> [Warning: Function labindex has the same name as a MATLAB builtin. We suggest
+you rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+[Warning: Function numlabs has the same name as a MATLAB builtin. We suggest you
+rename the function to avoid a potential name conflict.] 
+[> In path (line 109)
+In addpath (line 86)] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+
+
+*** Processing subject sub-3700001 ***
+
+
+{Error using load
+Unable to find file or directory '.mat'.
+} 
+>> >> >> >> {Error using save
+Variable 'TF_allsubs' not found.
+} 
+>> >> {Error using save
+Variable 'ITPS_allsubs' not found.
+} 
+>> >> >> >> {Error using save
+Variable 'wpli_allsubs' not found.
+} 
+>> >> >> >> >> >> >> >> >> >> >> >> >> [Warning:
+
+Path Warning: It appears that you have added the path to all of the
+subfolders to EEGLAB. This may create issues with some EEGLAB extensions
+If EEGLAB cannot start or your experience a large number of warning
+messages, remove all the EEGLAB paths then go to the EEGLAB folder
+and start EEGLAB which will add all the necessary paths.
+
+] 
+Some menus items hidden. Use Preference menu to show them all.
+eeglab: options file is ~/eeg_options.m
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 71: non-double matrix element
+Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 71: non-double matrix element
+Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 79: saw unknown, expected number
+Retrieving plugin versions from server...
+Retrieving download statistics...
+Issue with retrieving statistics for extensions
+EEGLAB: adding "ADJUST" v1.1.1 (see >> help eegplugin_adjust)
+EEGLAB: adding "FASTER" v1.0 (see >> help eegplugin_FASTER)
+EEGLAB: adding "ICLabel" v1.4 (see >> help eegplugin_iclabel)
+EEGLAB: adding "bva-io" v1.7 (see >> help eegplugin_bva_io)
+EEGLAB: adding "clean_rawdata" v2.8 (see >> help eegplugin_clean_rawdata)
+EEGLAB: adding "dipfit" v5.0 (see >> help eegplugin_dipfit)
+EEGLAB: adding "firfilt" v2.7.1 (see >> help eegplugin_firfilt)
+EEGLAB: adding "mffmatlabio-master" v3.5 (see >> help eegplugin_mffmatlabio)
+[Warning:
+
+Path Warning: It appears that you have added the path to all of the
+subfolders to EEGLAB. This may create issues with some EEGLAB extensions
+If EEGLAB cannot start or your experience a large number of warning
+messages, remove all the EEGLAB paths then go to the EEGLAB folder
+and start EEGLAB which will add all the necessary paths.
+
+] 
+[Warning: Could not check for the latest EEGLAB version (internet may be
+disconnected).
+To prevent long startup time, disable checking for new EEGLAB versions (File >
+Preferences).] 
+>> >> {Unrecognized function or variable 'frequency'.
+} 
+>> >> >> >> >> >> >> >> >> >> >> [Warning:
+
+Path Warning: It appears that you have added the path to all of the
+subfolders to EEGLAB. This may create issues with some EEGLAB extensions
+If EEGLAB cannot start or your experience a large number of warning
+messages, remove all the EEGLAB paths then go to the EEGLAB folder
+and start EEGLAB which will add all the necessary paths.
+
+] 
+Some menus items hidden. Use Preference menu to show them all.
+eeglab: options file is ~/eeg_options.m
+EEGLAB warning: there can be only one EEGLAB window, closing old one
+Retrieving plugin versions from server...
+Retrieving download statistics...
+Issue with retrieving statistics for extensions
+EEGLAB: adding "ADJUST" v1.1.1 (see >> help eegplugin_adjust)
+EEGLAB: adding "FASTER" v1.0 (see >> help eegplugin_FASTER)
+EEGLAB: adding "ICLabel" v1.4 (see >> help eegplugin_iclabel)
+EEGLAB: adding "bva-io" v1.7 (see >> help eegplugin_bva_io)
+EEGLAB: adding "clean_rawdata" v2.8 (see >> help eegplugin_clean_rawdata)
+EEGLAB: adding "dipfit" v5.0 (see >> help eegplugin_dipfit)
+EEGLAB: adding "firfilt" v2.7.1 (see >> help eegplugin_firfilt)
+EEGLAB: adding "mffmatlabio-master" v3.5 (see >> help eegplugin_mffmatlabio)
+[Warning:
+
+Path Warning: It appears that you have added the path to all of the
+subfolders to EEGLAB. This may create issues with some EEGLAB extensions
+If EEGLAB cannot start or your experience a large number of warning
+messages, remove all the EEGLAB paths then go to the EEGLAB folder
+and start EEGLAB which will add all the necessary paths.
+
+] 
+[Warning: Could not check for the latest EEGLAB version (internet may be
+disconnected).
+To prevent long startup time, disable checking for new EEGLAB versions (File >
+Preferences).] 
+>> >> {Unrecognized function or variable 'frequency'.
+} 
+>> >> >> >> >> >> >> >> >> [Warning:
+
+Path Warning: It appears that you have added the path to all of the
+subfolders to EEGLAB. This may create issues with some EEGLAB extensions
+If EEGLAB cannot start or your experience a large number of warning
+messages, remove all the EEGLAB paths then go to the EEGLAB folder
+and start EEGLAB which will add all the necessary paths.
+
+] 
+Some menus items hidden. Use Preference menu to show them all.
+eeglab: options file is ~/eeg_options.m
+EEGLAB warning: there can be only one EEGLAB window, closing old one
+Retrieving plugin versions from server...
+Retrieving download statistics...
+Issue with retrieving statistics for extensions
+EEGLAB: adding "ADJUST" v1.1.1 (see >> help eegplugin_adjust)
+EEGLAB: adding "FASTER" v1.0 (see >> help eegplugin_FASTER)
+EEGLAB: adding "ICLabel" v1.4 (see >> help eegplugin_iclabel)
+EEGLAB: adding "bva-io" v1.7 (see >> help eegplugin_bva_io)
+EEGLAB: adding "clean_rawdata" v2.8 (see >> help eegplugin_clean_rawdata)
+EEGLAB: adding "dipfit" v5.0 (see >> help eegplugin_dipfit)
+EEGLAB: adding "firfilt" v2.7.1 (see >> help eegplugin_firfilt)
+EEGLAB: adding "mffmatlabio-master" v3.5 (see >> help eegplugin_mffmatlabio)
+[Warning:
+
+Path Warning: It appears that you have added the path to all of the
+subfolders to EEGLAB. This may create issues with some EEGLAB extensions
+If EEGLAB cannot start or your experience a large number of warning
+messages, remove all the EEGLAB paths then go to the EEGLAB folder
+and start EEGLAB which will add all the necessary paths.
+
+] 
+[Warning: Could not check for the latest EEGLAB version (internet may be
+disconnected).
+To prevent long startup time, disable checking for new EEGLAB versions (File >
+Preferences).] 
+>> >> >> {Unrecognized function or variable 'frequency'.
+} 
+>> >> >> 
