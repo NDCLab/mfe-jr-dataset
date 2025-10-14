@@ -1,0 +1,82 @@
+/home/data/NDClab/datasets/mfe-jr-dataset/code/eeg/preprocessing/MADE-EEG-preprocessing-pipeline
+n109.panther.net
+Fri May 16 11:07:48 EDT 2025
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 2).
+
+ans = 
+
+ ProcessPool with properties: 
+
+            Connected: true
+           NumWorkers: 2
+              Cluster: local
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> [Warning:
+"/home/data/NDClab/datasets/mfe-jr-dataset/code/eeg/preprocessing/eeglab2023/functions/octavefunc/signal"
+not found in path.] 
+[> In rmpath (line 71)] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> 
+
+
+*** Processing subject 1 of 7 (sub-3700001_all_eeg_s1_r1_e1) ***
+
+
+pop_loadbv(): reading header file
+Done.
+pop_loadbv(): reading EEG data
+The header file points to a binary file that does not exist
+trying to open a binary file with the same name as the header
+file and a different extension...
+pop_loadbv(): scaling EEG data
+pop_loadbv(): reading marker file
+Done.
+pop_loadbv() warning: data files in header and marker files inconsistent.
+Removing 1 channel(s)...
+Event resorted by increasing latencies.
+Removing 1 channel(s)...
+Event resorted by increasing latencies.
+eeg_checkset warning: number of columns in data (64) does not match the number of channels (63): corrected
+eeg_checkset warning: number of channels different in data and channel file/struct: channel file/struct removed
+[Warning: channel labels should not be empty, creating unique labels] 
+Warning: the size of the channel location structure does not match with
+         number of channels. Channel information have been removed.
+pop_firws() - highpass filtering data: onepass-zerophase, order 33000, hamming-windowed sinc FIR
+  cutoff (-6 dB) 0.05 Hz
+  transition width 0.1 Hz, stopband 0-0.0 Hz, passband 0.1-500 Hz
+  max. passband deviation 0.0022 (0.22%), stopband attenuation -53 dB
+firfilt(): |                    |   0%=                   /   5%, ETE 48:45=                  -  10%, ETE 42:41=                 \  15%, ETE 39:14=                |  20%, ETE 36:25=               /  25%, ETE 33:51=              -  30%, ETE 31:25=             \  35%, ETE 29:04=            |  40%, ETE 26:45=           /  45%, ETE 24:27=          -  50%, ETE 22:11=         \  55%, ETE 19:56=        |  60%, ETE 17:42=       /  65%, ETE 15:28=      -  70%, ETE 13:16=     \  75%, ETE 11:03=    |  80%, ETE 08:50=   /  85%, ETE 06:37=  -  90%, ETE 04:25= \  95%, ETE 02:13=| 100%, ETE 00:00
+pop_firws() - lowpass filtering data: onepass-zerophase, order 332, hamming-windowed sinc FIR
+  cutoff (-6 dB) 54 Hz
+  transition width 9.9 Hz, passband 0-49.0 Hz, stopband 59.0-500 Hz
+  max. passband deviation 0.0022 (0.22%), stopband attenuation -53 dB
+firfilt(): |                    |   0%=                   /   5%, ETE 00:18=                  -  10%, ETE 00:14=                 \  15%, ETE 00:12=                |  20%, ETE 00:11=               /  25%, ETE 00:10=              -  30%, ETE 00:09=             \  35%, ETE 00:08=            |  40%, ETE 00:08=           /  45%, ETE 00:07=          -  50%, ETE 00:06=         \  55%, ETE 00:06=        |  60%, ETE 00:05=       /  65%, ETE 00:05=      -  70%, ETE 00:04=     \  75%, ETE 00:03=    |  80%, ETE 00:03=   /  85%, ETE 00:02=  -  90%, ETE 00:02= \  95%, ETE 00:01=| 100%, ETE 00:00
+Removing 1 channel(s)...
+Event resorted by increasing latencies.
+Removing 1 channel(s)...
+Event resorted by increasing latencies.
+Saving dataset...
+{Error using floatwrite (line 91)
+Error using floatwrite (line 91)
+Cannot write output file, check permission and space
+
+Error in pop_saveset (line 243)
+            tmpdata = floatwrite( tmpdata, fullfile(EEG.filepath, EEG.data), 'ieee-le');
+} 
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+>> >> >> >> >> 

@@ -1,0 +1,70 @@
+/home/data/NDClab/datasets/mfe-jr-dataset/code/eeg/preprocessing/MADE-EEG-preprocessing-pipeline
+n109.panther.net
+Fri May 16 16:35:40 EDT 2025
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2021 The MathWorks, Inc.
+                  R2021b (9.11.0.1769968) 64-bit (glnxa64)
+                             September 17, 2021
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+>> >> >> >> >> >> Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 2).
+
+ans = 
+
+ ProcessPool with properties: 
+
+            Connected: true
+           NumWorkers: 2
+              Cluster: local
+        AttachedFiles: {}
+    AutoAddClientPath: true
+          IdleTimeout: 30 minutes (30 minutes remaining)
+          SpmdEnabled: true
+
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> [Warning:
+"/Users/kihossei/Library/CloudStorage/GoogleDrive-hosseinikianoosh@gmail.com/My
+Drive/My Digital
+Life/Professional/Github_Repos/mfe-jr-dataset/code/eeg/preprocessing/eeglab2023/functions/octavefunc/signal"
+not found in path.] 
+[> In rmpath (line 71)] 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> {Parent folder
+"/Users/kihossei/Library/CloudStorage/GoogleDrive-hosseinikianoosh@gmail.com/My
+Drive/My Digital
+Life/Professional/Github_Repos/mfe-jr-dataset/sourcedata/raw/s1_r1/eeg" does
+not exist. Please provide a valid path.
+} 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> {Index exceeds the number of array elements. Index must not exceed 0.
+} 
+>> >> >> {Please make sure EEGLAB is on your Matlab path. Please see EEGLABwiki page for
+download and instalation instructions
+} 
+>> >> {Please make sure  "firfilt" plugin is in EEGLAB plugin folder and on Matlab
+path. Please see EEGLAB wiki page for download and instalation instructions of
+plugins.
+} 
+>> >> {Please make sure "FASTER" plugin is in EEGLAB plugin folder and on Matlab path.
+Please see EEGLAB wiki page for download and instalation instructions of
+plugins.
+} 
+>> >> {Please make sure you download modified "ADJUST" plugin from GitHub (link is in
+MADE manuscript) and ADJUST is in EEGLAB plugin folder and on Matlab path.
+} 
+>> >> >> {Error using mkdir
+Permission denied
+} 
+>> {Error using mkdir
+Permission denied
+} 
+>> >> >> >> >> >> >> >> >> >> >> >> >> >> >> >> {Error using cd
+Unable to change current folder to
+'/Users/kihossei/Library/CloudStorage/GoogleDrive-hosseinikianoosh@gmail.com/My
+Drive/My Digital
+Life/Professional/Github_Repos/mfe-jr-dataset/derivatives/preprocessed/eeg/preprocessed'
+(Name is nonexistent or not a folder).
+} 
+>> >> >> >> >> >> >> 
